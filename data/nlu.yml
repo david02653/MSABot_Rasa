@@ -59,7 +59,7 @@ nlu:
     - service information
     - service info
 
-intent: service_using_info
+- intent: service_using_info
   examples: |
     - What's the [GroceryInventory](service)'s using overview?
     - [GroceryInventory](service) using amount information
@@ -76,7 +76,7 @@ intent: service_using_info
     - using info
     - using information
 
-intent: service_api_list
+- intent: service_api_list
   examples: |
     - Please give me the API list for [GroceryInventory](service).
     - the service's API list for [GroceryInventory](service)
@@ -90,7 +90,7 @@ intent: service_api_list
     - API list
     - api
 
-intent: service_only
+- intent: service_only
   examples: |
     - [GroceryInventory](service)
     - about [GroceryInventory](service)
@@ -105,7 +105,7 @@ intent: service_only
     - about [Ordering](service)
     - for [Ordering](service)
 
-intent: last_build_fail
+- intent: last_build_fail
   examples: |
     - What's the reason my building failed for [GroceryInventory](service)?
     - Tell me the last building fail's trace for [GroceryInventory](service).
@@ -114,14 +114,14 @@ intent: last_build_fail
     - What's the reason my building failed for [CinemaCatalog](service)?
     - what's the building data for [CinemaCatalog](service)?
 
-intent: connect_error
+- intent: connect_error
   examples: |
     - Tell me the connection error about [GroceryInventory](service).
     - How's the connection for [GroceryInventory](service)?
     - Is [GroceryInventory](service)'s connection alright?
     - Tell me if the connection went wrong about [GroceryInventory](service).
 
-intent: service_env
+- intent: service_env
   examples: |
     - Please give me the env data.
     - env
@@ -132,7 +132,7 @@ intent: service_env
     - tell me all about the server.
     - tell me the server's environment setting.
 
-intent: bot_help
+- intent: bot_help
   examples: |
     - help
     - how to use
@@ -143,7 +143,7 @@ intent: bot_help
     - bot help
     - how to use this bot?
 
-intent: service_dependency_graph
+- intent: service_dependency_graph
   examples: |
     - give me the dependency graph.
     - What's the dependency graph?
